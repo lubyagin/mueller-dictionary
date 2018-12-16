@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'Mueller Dictionary' target in the 'Mueller Dictionary' project
+// Prefix header for all source files of the 'Mueller Dictionary for macOS' target in the 'Mueller Dictionary' project
 //
 
 #ifdef __OBJC__

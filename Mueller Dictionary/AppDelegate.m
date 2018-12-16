@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  Mueller Dictionary
+//  Mueller Dictionary for macOS
 //
 //  Created by Suvorov Vasily on 5/13/12.
 //  Copyright (c) 2012 bazil.pro. All rights reserved.
