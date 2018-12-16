@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D103F8E61562D0C800A5645C /* custom.txt in Resources */ = {isa = PBXBuildFile; fileRef = D103F8E51562D0C800A5645C /* custom.txt */; };
+		D172212F197B968E0060C57A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18CA713156035D3006F017C /* Cocoa.framework */; };
+		D18CA71E156035D3006F017C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D18CA71C156035D3006F017C /* InfoPlist.strings */; };
+		D18CA720156035D3006F017C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D18CA71F156035D3006F017C /* main.m */; };
+		D18CA724156035D3006F017C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D18CA722156035D3006F017C /* Credits.rtf */; };
+		D18CA727156035D3006F017C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D18CA726156035D3006F017C /* AppDelegate.m */; };
+		D18CA72A156035D3006F017C /* Main.xib in Resources */ = {isa = PBXBuildFile; fileRef = D18CA728156035D3006F017C /* Main.xib */; };
+		D18CA73615603A52006F017C /* Mueller.icns in Resources */ = {isa = PBXBuildFile; fileRef = D18CA73415603A52006F017C /* Mueller.icns */; };
+		D18CA73715603A52006F017C /* mueller.txt in Resources */ = {isa = PBXBuildFile; fileRef = D18CA73515603A52006F017C /* mueller.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D103F8E51562D0C800A5645C /* custom.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = custom.txt; sourceTree = "<group>"; };
+		D18CA70F156035D3006F017C /* Mueller Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mueller Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18CA713156035D3006F017C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D18CA716156035D3006F017C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D18CA717156035D3006F017C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D18CA718156035D3006F017C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D18CA71B156035D3006F017C /* Mueller Dictionary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mueller Dictionary-Info.plist"; sourceTree = "<group>"; };
+		D18CA71D156035D3006F017C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D18CA71F156035D3006F017C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D18CA721156035D3006F017C /* Mueller Dictionary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mueller Dictionary-Prefix.pch"; sourceTree = "<group>"; };
+		D18CA723156035D3006F017C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D18CA725156035D3006F017C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D18CA726156035D3006F017C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D18CA729156035D3006F017C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Main.xib; sourceTree = "<group>"; };
+		D18CA73415603A52006F017C /* Mueller.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Mueller.icns; sourceTree = "<group>"; };
+		D18CA73515603A52006F017C /* mueller.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mueller.txt; sourceTree = "<group>"; };
+		D1EAB37E1C6BB6B000027F73 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D18CA70C156035D3006F017C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D172212F197B968E0060C57A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D18CA704156035D3006F017C = {
+			isa = PBXGroup;
+			children = (
+				D103F8E51562D0C800A5645C /* custom.txt */,
+				D18CA73415603A52006F017C /* Mueller.icns */,
+				D18CA73515603A52006F017C /* mueller.txt */,
+				D1EAB37E1C6BB6B000027F73 /* README.md */,
+				D18CA719156035D3006F017C /* Mueller Dictionary */,
+				D18CA712156035D3006F017C /* Frameworks */,
+				D18CA710156035D3006F017C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D18CA710156035D3006F017C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D18CA70F156035D3006F017C /* Mueller Dictionary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D18CA712156035D3006F017C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D18CA713156035D3006F017C /* Cocoa.framework */,
+				D18CA715156035D3006F017C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D18CA715156035D3006F017C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D18CA716156035D3006F017C /* AppKit.framework */,
+				D18CA717156035D3006F017C /* CoreData.framework */,
+				D18CA718156035D3006F017C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D18CA719156035D3006F017C /* Mueller Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				D18CA725156035D3006F017C /* AppDelegate.h */,
+				D18CA726156035D3006F017C /* AppDelegate.m */,
+				D18CA728156035D3006F017C /* Main.xib */,
+				D18CA71A156035D3006F017C /* Supporting Files */,
+			);
+			path = "Mueller Dictionary";
+			sourceTree = "<group>";
+		};
+		D18CA71A156035D3006F017C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D18CA71B156035D3006F017C /* Mueller Dictionary-Info.plist */,
+				D18CA71C156035D3006F017C /* InfoPlist.strings */,
+				D18CA71F156035D3006F017C /* main.m */,
+				D18CA721156035D3006F017C /* Mueller Dictionary-Prefix.pch */,
+				D18CA722156035D3006F017C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D18CA70E156035D3006F017C /* Mueller Dictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18CA72D156035D3006F017C /* Build configuration list for PBXNativeTarget "Mueller Dictionary" */;
+			buildPhases = (
+				D18CA70B156035D3006F017C /* Sources */,
+				D18CA70C156035D3006F017C /* Frameworks */,
+				D18CA70D156035D3006F017C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mueller Dictionary";
+			productName = "Mueller Dictionary";
+			productReference = D18CA70F156035D3006F017C /* Mueller Dictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D18CA706156035D3006F017C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = bazil.pro;
+				TargetAttributes = {
+					D18CA70E156035D3006F017C = {
+						DevelopmentTeam = PN29ZGL6D7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D18CA709156035D3006F017C /* Build configuration list for PBXProject "Mueller Dictionary" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D18CA704156035D3006F017C;
+			productRefGroup = D18CA710156035D3006F017C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D18CA70E156035D3006F017C /* Mueller Dictionary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D18CA70D156035D3006F017C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18CA71E156035D3006F017C /* InfoPlist.strings in Resources */,
+				D18CA724156035D3006F017C /* Credits.rtf in Resources */,
+				D18CA72A156035D3006F017C /* Main.xib in Resources */,
+				D18CA73615603A52006F017C /* Mueller.icns in Resources */,
+				D18CA73715603A52006F017C /* mueller.txt in Resources */,
+				D103F8E61562D0C800A5645C /* custom.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D18CA70B156035D3006F017C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D18CA720156035D3006F017C /* main.m in Sources */,
+				D18CA727156035D3006F017C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D18CA71C156035D3006F017C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18CA71D156035D3006F017C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D18CA722156035D3006F017C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18CA723156035D3006F017C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D18CA728156035D3006F017C /* Main.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18CA729156035D3006F017C /* en */,
+			);
+			name = Main.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D18CA72B156035D3006F017C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D18CA72C156035D3006F017C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D18CA72E156035D3006F017C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PN29ZGL6D7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mueller Dictionary/Mueller Dictionary-Prefix.pch";
+				INFOPLIST_FILE = "Mueller Dictionary/Mueller Dictionary-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.bazil.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D18CA72F156035D3006F017C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PN29ZGL6D7;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mueller Dictionary/Mueller Dictionary-Prefix.pch";
+				INFOPLIST_FILE = "Mueller Dictionary/Mueller Dictionary-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "pro.bazil.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D18CA709156035D3006F017C /* Build configuration list for PBXProject "Mueller Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18CA72B156035D3006F017C /* Debug */,
+				D18CA72C156035D3006F017C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D18CA72D156035D3006F017C /* Build configuration list for PBXNativeTarget "Mueller Dictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18CA72E156035D3006F017C /* Debug */,
+				D18CA72F156035D3006F017C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D18CA706156035D3006F017C /* Project object */;
+}

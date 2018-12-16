@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Mueller Dictionary' target in the 'Mueller Dictionary' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
