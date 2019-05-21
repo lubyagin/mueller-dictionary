@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		D103F8E51562D0C800A5645C /* custom.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = custom.txt; sourceTree = "<group>"; };
+		D159528F2293DF38009D19BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Main.xib; sourceTree = "<group>"; };
 		D18CA70F156035D3006F017C /* Mueller Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mueller Dictionary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18CA713156035D3006F017C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D18CA716156035D3006F017C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -32,7 +33,6 @@
 		D18CA723156035D3006F017C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		D18CA725156035D3006F017C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D18CA726156035D3006F017C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D18CA729156035D3006F017C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Main.xib; sourceTree = "<group>"; };
 		D18CA73415603A52006F017C /* Mueller.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Mueller.icns; sourceTree = "<group>"; };
 		D18CA73515603A52006F017C /* mueller.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mueller.txt; sourceTree = "<group>"; };
 		D1EAB37E1C6BB6B000027F73 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 		D18CA706156035D3006F017C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = bazil.pro;
 				TargetAttributes = {
 					D18CA70E156035D3006F017C = {
@@ -150,10 +150,11 @@
 			};
 			buildConfigurationList = D18CA709156035D3006F017C /* Build configuration list for PBXProject "Mueller Dictionary" */;
 			compatibilityVersion = "Xcode 8.0";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D18CA704156035D3006F017C;
 			productRefGroup = D18CA710156035D3006F017C /* Products */;
@@ -213,7 +214,7 @@
 		D18CA728156035D3006F017C /* Main.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D18CA729156035D3006F017C /* en */,
+				D159528F2293DF38009D19BC /* Base */,
 			);
 			name = Main.xib;
 			sourceTree = "<group>";
@@ -225,6 +226,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -273,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
